@@ -6,8 +6,9 @@ from selenium.webdriver.common.by import By
 REGISTER_NAME_INPUT = (By.XPATH, "//input[@name='name']")  # Поле ввода имени на странице регистрации
 REGISTER_EMAIL_INPUT = (By.XPATH, "//fieldset[2]/div/div/input") # Поле ввода Email на странице регистрации
 REGISTER_PASSWORD_INPUT = (By.XPATH, "//fieldset[3]/div/div/input")  # Поле ввода пароля на странице регистрации
-REGISTER_SUBMIT_BUTTON = (By.XPATH, "//button[text()='Зарегистрироваться']")  # Кнопка отправки формы регистрации
+REGISTER_SUBMIT_BUTTON = (By.XPATH, "//div/main/div/form/button")  # Кнопка отправки формы регистрации
 REGISTER_ERROR_MESSAGE = (By.CLASS_NAME, "input__error")  # Сообщение об ошибке
+REGISTER_FAIL_MESSAGE = (By.XPATH, '//div/main/div/p')
 
 # Локаторы для страницы входа
 LOGIN_EMAIL_INPUT = (By.XPATH, ".//input[@name='name']")  # Поле ввода email

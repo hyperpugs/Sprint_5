@@ -1,5 +1,5 @@
 # tests/test_navigation.py
-
+from selenium import webdriver
 import pytest
 from locators import *
 

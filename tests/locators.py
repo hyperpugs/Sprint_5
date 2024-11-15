@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 # Локаторы для страницы регистрации
 REGISTER_NAME_INPUT = (By.XPATH, "//input[@name='name']")  # Поле ввода имени на странице регистрации
 REGISTER_EMAIL_INPUT = (By.XPATH, "//fieldset[2]/div/div/input") # Поле ввода Email на странице регистрации
-REGISTER_PASSWORD_INPUT = (By.XPATH, "//input[@name='Пароль']")  # Поле ввода пароля на странице регистрации
+REGISTER_PASSWORD_INPUT = (By.XPATH, "//fieldset[3]/div/div/input")  # Поле ввода пароля на странице регистрации
 REGISTER_SUBMIT_BUTTON = (By.XPATH, "//button[text()='Зарегистрироваться']")  # Кнопка отправки формы регистрации
 REGISTER_ERROR_MESSAGE = (By.CLASS_NAME, "input__error")  # Сообщение об ошибке
 
@@ -15,7 +15,7 @@ LOGIN_PASSWORD_INPUT = (By.XPATH, ".//input[@name='Пароль']")  # Поле 
 LOGIN_SUBMIT_BUTTON = (By.XPATH, ".//button[text()='Войти']")  # Кнопка входа
 
 # Локаторы для основной страницы
-MAIN_LOGIN_BUTTON = (By.XPATH, "//button[contains(text(), 'Войти в аккаунт')]")  # Кнопка «Войти в аккаунт» на главной
+MAIN_LOGIN_BUTTON = (By.XPATH, ".//button[text()='Войти в аккаунт')]")  # Кнопка «Войти в аккаунт» на главной
 PERSONAL_ACCOUNT_BUTTON = (By.XPATH, "//a/p[text()='Личный Кабинет']")  # Кнопка «Личный кабинет» на главной
 
 # Локаторы для личного кабинета

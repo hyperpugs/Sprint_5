@@ -7,7 +7,6 @@
     <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new locators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,12 @@
     &quot;assignee&quot;: &quot;hyperpugs&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hyperpugs/Sprint_5.git",
-    "accountId": "89694c1f-c5d1-4302-ad0d-4b11b74d0deb"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hyperpugs/Sprint_5.git&quot;,
+    &quot;accountId&quot;: &quot;89694c1f-c5d1-4302-ad0d-4b11b74d0deb&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.venv/tests/conftest.py" root0="FORCE_HIGHLIGHTING" />
@@ -53,27 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in test_login.py.executor": "Run",
-    "Python tests.Python tests in test_navigation.py.executor": "Run",
-    "Python tests.Python tests in test_registration.py.executor": "Run",
-    "Python tests.pytest for test_registration.test_successful_registration.executor": "Run",
-    "Python tests.pytest in test_login.py.executor": "Run",
-    "Python tests.pytest in test_navigation.py.executor": "Run",
-    "Python tests.pytest in test_registration.py.executor": "Run",
-    "Python.locators.executor": "Run",
-    "Python.test_login.executor": "Run",
-    "Python.test_navigation.executor": "Run",
-    "Python.test_registration.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "C:/Users/Sasha/PycharmProjects/Sprint_5",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_navigation.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_registration.test_successful_registration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_navigation.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_navigation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_registration.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sasha/PycharmProjects/Sprint_5&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sasha\PycharmProjects\Sprint_5" />

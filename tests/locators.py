@@ -4,15 +4,15 @@ from selenium.webdriver.common.by import By
 
 # Локаторы для страницы регистрации
 REGISTER_NAME_INPUT = (By.XPATH, "//input[@name='name']")  # Поле ввода имени на странице регистрации
-REGISTER_EMAIL_INPUT = (By.XPATH, "//input[@name='email']")  # Поле ввода Email на странице регистрации
-REGISTER_PASSWORD_INPUT = (By.XPATH, "//input[@name='password']")  # Поле ввода пароля на странице регистрации
+REGISTER_EMAIL_INPUT = (By.XPATH, "//*[@id="root"]/div/main/div/form/fieldset[2]/div/div/input") # Поле ввода Email на странице регистрации
+REGISTER_PASSWORD_INPUT = (By.XPATH, ".//input[@name='Пароль']")  # Поле ввода пароля на странице регистрации
 REGISTER_SUBMIT_BUTTON = (By.XPATH, "//button[text()='Зарегистрироваться']")  # Кнопка отправки формы регистрации
 REGISTER_ERROR_MESSAGE = (By.CLASS_NAME, "input__error")  # Сообщение об ошибке
 
 # Локаторы для страницы входа
-LOGIN_EMAIL_INPUT = (By.XPATH, "//input[@name='email']")  # Поле ввода email
-LOGIN_PASSWORD_INPUT = (By.XPATH, "//input[@name='password']")  # Поле ввода пароля
-LOGIN_SUBMIT_BUTTON = (By.XPATH, "//button[text()='Войти']")  # Кнопка входа
+LOGIN_EMAIL_INPUT = (By.XPATH, ".//input[@name='name']")  # Поле ввода email
+LOGIN_PASSWORD_INPUT = (By.XPATH, ".//input[@name='Пароль']")  # Поле ввода пароля
+LOGIN_SUBMIT_BUTTON = (By.XPATH, ".//button[text()='Войти']")  # Кнопка входа
 
 # Локаторы для основной страницы
 MAIN_LOGIN_BUTTON = (By.XPATH, "//button[contains(text(), 'Войти в аккаунт')]")  # Кнопка «Войти в аккаунт» на главной

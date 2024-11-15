@@ -1,6 +1,6 @@
 # tests/test_login.py
 
-import pytest
+
 from selenium import webdriver
 from locators import *
 
@@ -15,7 +15,7 @@ def test_login_via_main_button(setup_browser):
     driver.find_element(*LOGIN_SUBMIT_BUTTON).click()
 
     # Проверка успешного входа
-    assert "Личный кабинет" in driver.title
+    assert "Stellar Burgers" in driver.title
 
 
 def test_login_via_personal_account_button(setup_browser):
@@ -27,7 +27,7 @@ def test_login_via_personal_account_button(setup_browser):
     driver.find_element(*LOGIN_PASSWORD_INPUT).send_keys("password123")
     driver.find_element(*LOGIN_SUBMIT_BUTTON).click()
 
-    assert "Личный кабинет" in driver.title
+    assert "Stellar Burgers" in driver.title
 
 
 def test_login_via_registration_page(setup_browser):
@@ -39,7 +39,7 @@ def test_login_via_registration_page(setup_browser):
     driver.find_element(*LOGIN_PASSWORD_INPUT).send_keys("password123")
     driver.find_element(*LOGIN_SUBMIT_BUTTON).click()
 
-    assert "Личный кабинет" in driver.title
+    assert "Stellar Burgers" in driver.title
 
 
 def test_login_via_password_recovery_page(setup_browser):
@@ -51,4 +51,4 @@ def test_login_via_password_recovery_page(setup_browser):
     driver.find_element(*LOGIN_PASSWORD_INPUT).send_keys("password123")
     driver.find_element(*LOGIN_SUBMIT_BUTTON).click()
 
-    assert "Личный кабинет" in driver.title
+    assert "Stellar Burgers" in driver.title

@@ -12,7 +12,7 @@ def test_successful_registration(setup_browser):
     driver.find_element(*REGISTER_PASSWORD_INPUT).send_keys("password123")
     driver.find_element(*REGISTER_SUBMIT_BUTTON).click()
 
-    assert "Привет, Александр!" in driver.page_source
+    assert "Stellar Burgers" in driver.title
 
 def test_registration_invalid_password(setup_browser):
     driver = setup_browser

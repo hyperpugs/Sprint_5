@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new" />
+    <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new locators">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +31,12 @@
     &quot;assignee&quot;: &quot;hyperpugs&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/hyperpugs/Sprint_5.git&quot;,
-    &quot;accountId&quot;: &quot;6e16edfa-59b1-44f1-bb39-b74bd96a5053&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hyperpugs/Sprint_5.git",
+    "accountId": "89694c1f-c5d1-4302-ad0d-4b11b74d0deb"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.venv/tests/conftest.py" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +59,11 @@
     "Python tests.Python tests in test_login.py.executor": "Run",
     "Python tests.Python tests in test_navigation.py.executor": "Run",
     "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.pytest for test_registration.test_successful_registration.executor": "Run",
+    "Python tests.pytest in test_login.py.executor": "Run",
+    "Python tests.pytest in test_navigation.py.executor": "Run",
+    "Python tests.pytest in test_registration.py.executor": "Run",
+    "Python.locators.executor": "Run",
     "Python.test_login.executor": "Run",
     "Python.test_navigation.executor": "Run",
     "Python.test_registration.executor": "Run",
@@ -67,8 +77,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sasha\PycharmProjects\Sprint_5" />
       <recent name="E:\PycharmProjects\Sprint_5" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pytest for test_registration.test_successful_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registration.test_successful_registration&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_registration.test_successful_registration" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -110,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731611077648</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new locators">
+      <option name="closed" value="true" />
+      <created>1731664352183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731664352183</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new locators">
+      <option name="closed" value="true" />
+      <created>1731670356361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731670356361</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="new locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="new locators" />
   </component>
 </project>

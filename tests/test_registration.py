@@ -1,5 +1,5 @@
 # tests/test_registration.py
-from selenium.webdriver.support.wait import WebDriverWait
+
 from selenium import webdriver
 import pytest
 from locators import *  # Убедитесь, что импортируете ваши локаторы

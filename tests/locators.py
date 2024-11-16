@@ -12,10 +12,10 @@ REGISTER_INVALID_PASS = (By.XPATH, '//fieldset[3]/div/p') # Некорректн
 # Локаторы для страницы входа
 LOGIN_EMAIL_INPUT = (By.XPATH, ".//input[@name='name']")  # Поле ввода email
 LOGIN_PASSWORD_INPUT = (By.XPATH, ".//input[@name='Пароль']")  # Поле ввода пароля
-LOGIN_SUBMIT_BUTTON = (By.XPATH, ".//button[text()='Войти']")  # Кнопка входа
-
+LOGIN_SUBMIT_BUTTON = (By.XPATH, ".//button[text()='Войти']") # Кнопка входа
+PERSONAL_ACCOUNT = (By.XPATH, "//div/header/nav/a/p")
 # Локаторы для основной страницы
-MAIN_LOGIN_BUTTON = (By.XPATH, ".//button[text()='Войти в аккаунт')]")  # Кнопка «Войти в аккаунт» на главной
+MAIN_LOGIN_BUTTON = (By.XPATH, "//section[2]/div/button[text()= 'Войти в аккаунт']")  # Кнопка «Войти в аккаунт» на главной
 PERSONAL_ACCOUNT_BUTTON = (By.XPATH, "//a/p[text()='Личный Кабинет']")  # Кнопка «Личный кабинет» на главной
 
 # Локаторы для личного кабинета

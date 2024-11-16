@@ -11,9 +11,8 @@ def test_login_via_main_button(setup_browser):
     driver.find_element(*LOGIN_EMAIL_INPUT).send_keys("aleksandr_zhukov_15_777@yandex.ru")
     driver.find_element(*LOGIN_PASSWORD_INPUT).send_keys("password123")
     driver.find_element(*LOGIN_SUBMIT_BUTTON).click()
-
-    # Проверка успешного входа
-    assert "Stellar Burgers" in driver.title
+    account = driver.find_element(*PERSONAL_ACCOUNT)
+    assert "Личный Кабинет" in account.text
 
 
 def test_login_via_personal_account_button(setup_browser):

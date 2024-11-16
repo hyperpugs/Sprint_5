@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new locators">
+    <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new tests cons">
       <change afterPath="$PROJECT_DIR$/.idea/Sprint_5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_navigation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_constructor.test_to_buns.executor": "Run",
+    "Python tests.Python tests for test_constructor.test_to_constructor.executor": "Run",
+    "Python tests.Python tests for test_log_out.test_forward_to_personal_account.executor": "Run",
+    "Python tests.Python tests for test_login.test_login_via_password_recovery_page.executor": "Run",
+    "Python tests.Python tests for test_login.test_login_via_personal_account_button.executor": "Run",
+    "Python tests.Python tests for test_login.test_login_via_registration_page.executor": "Run",
+    "Python tests.Python tests for test_login.test_registration_invalid_password.executor": "Run",
+    "Python tests.Python tests for test_personal_account.test_forward_to_personal_account.executor": "Run",
+    "Python tests.Python tests for test_personal_account.test_transfer_to_constructor.executor": "Run",
+    "Python tests.Python tests for test_personal_account.test_trasner_to_main_page.executor": "Run",
     "Python tests.Python tests for test_registration.test_already_registred.executor": "Run",
     "Python tests.Python tests for test_registration.test_registration_with_short_password.executor": "Run",
     "Python tests.Python tests in test_login.py.executor": "Run",
@@ -94,8 +102,8 @@
       <recent name="E:\PycharmProjects\Sprint_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_registration.test_successful_registration">
-    <configuration name="Python tests for test_registration.test_already_registred" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_login.test_registration_invalid_password">
+    <configuration name="Python tests for test_constructor.test_to_buns" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_5" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +114,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.test_already_registred&quot;" />
+      <option name="_new_target" value="&quot;test_constructor.test_to_buns&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_registration.test_registration_with_short_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_constructor.test_to_constructor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_5" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +129,52 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.test_registration_with_short_password&quot;" />
+      <option name="_new_target" value="&quot;test_constructor.test_to_constructor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_log_out.test_forward_to_personal_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_log_out.test_forward_to_personal_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.test_registration_invalid_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_registration_invalid_password&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_personal_account.test_trasner_to_main_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_personal_account.test_trasner_to_main_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -196,72 +249,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.test_login_via_main_button" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.test_login_via_main_button&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_navigation.test_logout_from_personal_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_navigation.test_logout_from_personal_account&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_registration.test_successful_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.test_successful_registration&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for test_registration.test_already_registred" />
-      <item itemvalue="Python tests.Python tests for test_registration.test_registration_with_short_password" />
-      <item itemvalue="Python tests.pytest for test_login.test_login_via_main_button" />
-      <item itemvalue="Python tests.pytest for test_navigation.test_logout_from_personal_account" />
-      <item itemvalue="Python tests.pytest for test_registration.test_successful_registration" />
+      <item itemvalue="Python tests.Python tests for test_constructor.test_to_buns" />
+      <item itemvalue="Python tests.Python tests for test_constructor.test_to_constructor" />
+      <item itemvalue="Python tests.Python tests for test_log_out.test_forward_to_personal_account" />
+      <item itemvalue="Python tests.Python tests for test_login.test_registration_invalid_password" />
+      <item itemvalue="Python tests.Python tests for test_personal_account.test_trasner_to_main_page" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_registration.test_successful_registration" />
-        <item itemvalue="Python tests.Python tests for test_registration.test_registration_with_short_password" />
-        <item itemvalue="Python tests.Python tests for test_registration.test_already_registred" />
-        <item itemvalue="Python tests.pytest for test_navigation.test_logout_from_personal_account" />
-        <item itemvalue="Python tests.pytest for test_login.test_login_via_main_button" />
+        <item itemvalue="Python tests.Python tests for test_login.test_registration_invalid_password" />
+        <item itemvalue="Python tests.Python tests for test_constructor.test_to_constructor" />
+        <item itemvalue="Python tests.Python tests for test_constructor.test_to_buns" />
+        <item itemvalue="Python tests.Python tests for test_log_out.test_forward_to_personal_account" />
+        <item itemvalue="Python tests.Python tests for test_personal_account.test_trasner_to_main_page" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +330,55 @@
       <option name="project" value="LOCAL" />
       <updated>1731671574152</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new reg">
+      <option name="closed" value="true" />
+      <created>1731753114993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731753114993</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new reg">
+      <option name="closed" value="true" />
+      <created>1731753867055</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731753867055</updated>
+    </task>
+    <task id="LOCAL-00009" summary="locators and login ipmroved">
+      <option name="closed" value="true" />
+      <created>1731773339786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731773339786</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new test pers acc">
+      <option name="closed" value="true" />
+      <created>1731774894160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731774894160</updated>
+    </task>
+    <task id="LOCAL-00011" summary="personal acc new tests">
+      <option name="closed" value="true" />
+      <created>1731776415380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731776415380</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new tests cons">
+      <option name="closed" value="true" />
+      <created>1731778194064</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731778194064</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +407,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="new locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="new locators" />
+    <MESSAGE value="new reg" />
+    <MESSAGE value="locators and login ipmroved" />
+    <MESSAGE value="new test pers acc" />
+    <MESSAGE value="personal acc new tests" />
+    <MESSAGE value="new tests cons" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tests cons" />
   </component>
 </project>

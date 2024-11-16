@@ -1,5 +1,3 @@
-# tests/test_login.py
-
 
 from selenium import webdriver
 from locators import *

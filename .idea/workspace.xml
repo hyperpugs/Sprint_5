@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new locators">
+      <change afterPath="$PROJECT_DIR$/.idea/Sprint_5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/hyperpugs/Sprint_5.git&quot;,
-    &quot;accountId&quot;: &quot;89694c1f-c5d1-4302-ad0d-4b11b74d0deb&quot;
+    &quot;accountId&quot;: &quot;6e16edfa-59b1-44f1-bb39-b74bd96a5053&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -52,34 +60,177 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_navigation.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_registration.test_successful_registration.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_navigation.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_navigation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_registration.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sasha/PycharmProjects/Sprint_5&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_registration.test_already_registred.executor": "Run",
+    "Python tests.Python tests for test_registration.test_registration_with_short_password.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_navigation.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.pytest for test_login.test_login_via_main_button.executor": "Run",
+    "Python tests.pytest for test_login.test_login_via_password_recovery_page.executor": "Run",
+    "Python tests.pytest for test_login.test_registration_invalid_password.executor": "Run",
+    "Python tests.pytest for test_navigation.test_logout_from_personal_account.executor": "Run",
+    "Python tests.pytest for test_registration.test_successful_registration.executor": "Run",
+    "Python tests.pytest in test_login.py.executor": "Run",
+    "Python tests.pytest in test_navigation.py.executor": "Run",
+    "Python tests.pytest in test_registration.py.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.test_login.executor": "Run",
+    "Python.test_navigation.executor": "Run",
+    "Python.test_registration.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "E:/PycharmProjects/Sprint_5",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sasha\PycharmProjects\Sprint_5" />
       <recent name="E:\PycharmProjects\Sprint_5" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_registration.test_successful_registration">
+    <configuration name="Python tests for test_registration.test_already_registred" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registration.test_already_registred&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_registration.test_registration_with_short_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registration.test_registration_with_short_password&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Programs/Python/Python312/python.exe" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Programs/Python/Python312/python.exe" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Programs/Python/Python312/python.exe" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.test_login_via_main_button" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_login_via_main_button&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_navigation.test_logout_from_personal_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_navigation.test_logout_from_personal_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_registration.test_successful_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Sprint_5" />
       <option name="ENV_FILES" value="" />
@@ -97,16 +248,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.Python tests for test_registration.test_already_registred" />
+      <item itemvalue="Python tests.Python tests for test_registration.test_registration_with_short_password" />
+      <item itemvalue="Python tests.pytest for test_login.test_login_via_main_button" />
+      <item itemvalue="Python tests.pytest for test_navigation.test_logout_from_personal_account" />
+      <item itemvalue="Python tests.pytest for test_registration.test_successful_registration" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_registration.test_successful_registration" />
+        <item itemvalue="Python tests.Python tests for test_registration.test_registration_with_short_password" />
+        <item itemvalue="Python tests.Python tests for test_registration.test_already_registred" />
+        <item itemvalue="Python tests.pytest for test_navigation.test_logout_from_personal_account" />
+        <item itemvalue="Python tests.pytest for test_login.test_login_via_main_button" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>

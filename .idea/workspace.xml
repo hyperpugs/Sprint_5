@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="new tests cons">
-      <change afterPath="$PROJECT_DIR$/.idea/Sprint_5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="21415fae-b291-4f27-a25e-c4e2e601fb23" name="Changes" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731778194064</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ignore">
+      <option name="closed" value="true" />
+      <created>1731778472656</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731778472656</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,6 +416,7 @@
     <MESSAGE value="new test pers acc" />
     <MESSAGE value="personal acc new tests" />
     <MESSAGE value="new tests cons" />
-    <option name="LAST_COMMIT_MESSAGE" value="new tests cons" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
 </project>

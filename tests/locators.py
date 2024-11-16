@@ -30,13 +30,13 @@ FROM_PERSONAL_ACC_TO_CONSTRUCTOR = (By.XPATH, "//li[1]/a/p[text()= 'Констр
 FROM_PERSONAL_ACC_TO_MAIN_PAGE = (By.XPATH, "//div/a")
 
 # Локаторы для навигации и страницы восстановления пароля
-CONSTRUCTOR_NAV_BUTTON = (By.XPATH, "//a/p[text()='Конструктор']")  # Кнопка «Конструктор»
-STELLAR_BURGERS_LOGO = (By.CLASS_NAME, "AppHeader_header__logo__2D0X2")  # Логотип для главной страницы
 REGISTER_PAGE_LOGIN_BUTTON = (By.XPATH, "//a/p[text()='Выход']")  # Кнопка входа на странице регистрации
 PASSWORD_RECOVERY_LOGIN_BUTTON = (By.XPATH, "//a/p[text()='Выход']")  # Кнопка входа на странице восстановления пароля
 
 # Локаторы для разделов конструктора
-BUNS_SECTION_BUTTON = (By.XPATH, "//span[text()='Булки']")  # Кнопка перехода в раздел «Булки»
-SAUCES_SECTION_BUTTON = (By.XPATH, "//span[text()='Соусы']")  # Кнопка перехода в раздел «Соусы»
+BUN = (By.XPATH, "//a[1]/p[text()='Флюоресцентная булка R2-D3']")
+SAUCES_SECTION_BUTTON = (By.XPATH, "//div[1]/div[2]")  # Кнопка перехода в раздел «Соусы»
+SAUCE = (By.XPATH, "//a[1]/p[text()= 'Соус Spicy-X']")
 FILLINGS_SECTION_BUTTON = (By.XPATH, "//span[text()='Начинки']")  # Кнопка перехода в раздел «Начинки»
+FILLING = (By.XPATH, "//a[1]/p[text()= 'Мясо бессмертных моллюсков Protostomia']")
 MAKE_BURGER = (By.XPATH, "//section[1]/h1[text()= 'Соберите бургер']")

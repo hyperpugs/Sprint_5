@@ -27,6 +27,7 @@ PERSONAL_ACCOUNT_BUTTON = (By.XPATH, "//a/p[text()='Личный Кабинет'
 # Локаторы для личного кабинета
 PERSONAL_ACCOUNT_LOGOUT_BUTTON = (By.XPATH, "//button[text()='Выход']")  # Кнопка выхода в личном кабинете
 FROM_PERSONAL_ACC_TO_CONSTRUCTOR = (By.XPATH, "//li[1]/a/p[text()= 'Конструктор']")
+FROM_PERSONAL_ACC_TO_MAIN_PAGE = (By.XPATH, "//div/a")
 
 # Локаторы для навигации и страницы восстановления пароля
 CONSTRUCTOR_NAV_BUTTON = (By.XPATH, "//a/p[text()='Конструктор']")  # Кнопка «Конструктор»

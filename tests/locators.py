@@ -9,11 +9,17 @@ REGISTER_SUBMIT_BUTTON = (By.XPATH, "//div/main/div/form/button")  # Кнопк�
 REGISTER_ERROR_MESSAGE = (By.CLASS_NAME, "input__error")  # Сообщение об ошибке
 REGISTER_FAIL_MESSAGE = (By.XPATH, '//div/main/div/p')
 REGISTER_INVALID_PASS = (By.XPATH, '//fieldset[3]/div/p') # Некорректный пароль
+
+
 # Локаторы для страницы входа
 LOGIN_EMAIL_INPUT = (By.XPATH, ".//input[@name='name']")  # Поле ввода email
 LOGIN_PASSWORD_INPUT = (By.XPATH, ".//input[@name='Пароль']")  # Поле ввода пароля
 LOGIN_SUBMIT_BUTTON = (By.XPATH, ".//button[text()='Войти']") # Кнопка входа
 PERSONAL_ACCOUNT = (By.XPATH, "//div/header/nav/a/p")
+MAKE_ORDER = (By.XPATH, "//button[text()='Оформить заказ']")
+LOGIN_THROURGH_REGISTER =  (By.XPATH, "//div/p/a")
+
+
 # Локаторы для основной страницы
 MAIN_LOGIN_BUTTON = (By.XPATH, "//section[2]/div/button[text()= 'Войти в аккаунт']")  # Кнопка «Войти в аккаунт» на главной
 PERSONAL_ACCOUNT_BUTTON = (By.XPATH, "//a/p[text()='Личный Кабинет']")  # Кнопка «Личный кабинет» на главной

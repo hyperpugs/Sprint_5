@@ -21,19 +21,21 @@ LOGIN_THROURGH_REGISTER =  (By.XPATH, "//div/p/a")
 
 
 # Локаторы для основной страницы
-MAIN_LOGIN_BUTTON = (By.XPATH, "//section[2]/div/button[text()= 'Войти в аккаунт']")  # Кнопка «Войти в аккаунт» на главной
+MAIN_LOGIN_BUTTON = (By.XPATH, "//button[text()= 'Войти в аккаунт']")  # Кнопка «Войти в аккаунт» на главной
 PERSONAL_ACCOUNT_BUTTON = (By.XPATH, "//a/p[text()='Личный Кабинет']")  # Кнопка «Личный кабинет» на главной
 
 # Локаторы для личного кабинета
-PERSONAL_ACCOUNT_LOGOUT_BUTTON = (By.XPATH, "//button[text()='Выйти']")  # Кнопка выхода в личном кабинете
+PERSONAL_ACCOUNT_LOGOUT_BUTTON = (By.XPATH, "//button[text()='Выход']")  # Кнопка выхода в личном кабинете
+FROM_PERSONAL_ACC_TO_CONSTRUCTOR = (By.XPATH, "//li[1]/a/p[text()= 'Конструктор']")
 
 # Локаторы для навигации и страницы восстановления пароля
 CONSTRUCTOR_NAV_BUTTON = (By.XPATH, "//a/p[text()='Конструктор']")  # Кнопка «Конструктор»
 STELLAR_BURGERS_LOGO = (By.CLASS_NAME, "AppHeader_header__logo__2D0X2")  # Логотип для главной страницы
-REGISTER_PAGE_LOGIN_BUTTON = (By.XPATH, "//a/p[text()='Войти']")  # Кнопка входа на странице регистрации
-PASSWORD_RECOVERY_LOGIN_BUTTON = (By.XPATH, "//a/p[text()='Войти']")  # Кнопка входа на странице восстановления пароля
+REGISTER_PAGE_LOGIN_BUTTON = (By.XPATH, "//a/p[text()='Выход']")  # Кнопка входа на странице регистрации
+PASSWORD_RECOVERY_LOGIN_BUTTON = (By.XPATH, "//a/p[text()='Выход']")  # Кнопка входа на странице восстановления пароля
 
 # Локаторы для разделов конструктора
 BUNS_SECTION_BUTTON = (By.XPATH, "//span[text()='Булки']")  # Кнопка перехода в раздел «Булки»
 SAUCES_SECTION_BUTTON = (By.XPATH, "//span[text()='Соусы']")  # Кнопка перехода в раздел «Соусы»
 FILLINGS_SECTION_BUTTON = (By.XPATH, "//span[text()='Начинки']")  # Кнопка перехода в раздел «Начинки»
+MAKE_BURGER = (By.XPATH, "//section[1]/h1[text()= 'Соберите бургер']")

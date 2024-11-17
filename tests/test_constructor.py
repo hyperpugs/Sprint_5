@@ -1,11 +1,9 @@
-
-from selenium import webdriver
 from locators import *
-
-
+from conftest import *
+from config import BASE_URL
 def test_to_constructor(setup_browser):
         driver = setup_browser
-        driver.get("https://stellarburgers.nomoreparties.site/")
+        driver.get(BASE_URL)
 
         bun = driver.find_element(*BUN)
         assert "Флюоресцентная булка R2-D3" in bun.text

@@ -1,11 +1,10 @@
-
-from selenium import webdriver
+import pytest
 from locators import *
-
-
+from conftest import *
+from config import BASE_URL, REGISTER_URL, FORGOT_URL
 def test_login_via_main_button(setup_browser):
     driver = setup_browser
-    driver.get("https://stellarburgers.nomoreparties.site/")
+    driver.get(BASE_URL)
 
     driver.find_element(*MAIN_LOGIN_BUTTON).click()
     driver.find_element(*LOGIN_EMAIL_INPUT).send_keys("aleksandr_zhukov_15_777@yandex.ru")
@@ -17,7 +16,7 @@ def test_login_via_main_button(setup_browser):
 
 def test_login_via_personal_account_button(setup_browser):
     driver = setup_browser
-    driver.get("https://stellarburgers.nomoreparties.site/")
+    driver.get(BASE_URL)
 
     driver.find_element(*PERSONAL_ACCOUNT_BUTTON).click()
     driver.find_element(*LOGIN_EMAIL_INPUT).send_keys("aleksandr_zhukov_15_777@yandex.ru")
@@ -30,7 +29,7 @@ def test_login_via_personal_account_button(setup_browser):
 
 def test_login_via_registration_page(setup_browser):
     driver = setup_browser
-    driver.get("https://stellarburgers.nomoreparties.site/register")
+    driver.get(REGISTER_URL)
 
     driver.find_element(*LOGIN_THROURGH_REGISTER).click()
     driver.find_element(*LOGIN_EMAIL_INPUT).send_keys("aleksandr_zhukov_15_777@yandex.ru")
@@ -43,7 +42,7 @@ def test_login_via_registration_page(setup_browser):
 
 def test_login_via_password_recovery_page(setup_browser):
     driver = setup_browser
-    driver.get("https://stellarburgers.nomoreparties.site/forgot-password")
+    driver.get(FORGOT_URL)
 
     driver.find_element(*LOGIN_THROURGH_REGISTER).click()
     driver.find_element(*LOGIN_EMAIL_INPUT).send_keys("aleksandr_zhukov_15_777@yandex.ru")
@@ -55,7 +54,7 @@ def test_login_via_password_recovery_page(setup_browser):
 
 def test_registration_invalid_password(setup_browser):
     driver = setup_browser
-    driver.get("https://stellarburgers.nomoreparties.site/register")
+    driver.get(REGISTER_URL)
 
     driver.find_element(*REGISTER_NAME_INPUT).send_keys("Александр Жуков")
     driver.find_element(*REGISTER_EMAIL_INPUT).send_keys("aleksandr_zhukov_15_777@yandex.ru")

@@ -8,6 +8,7 @@ REGISTER_PASSWORD_INPUT = (By.XPATH, "//fieldset[3]/div/div/input")  # Поле 
 REGISTER_SUBMIT_BUTTON = (By.XPATH, "//div/main/div/form/button")  # Кнопка отправки формы регистрации
 REGISTER_ERROR_MESSAGE = (By.CLASS_NAME, "input__error")  # Сообщение об ошибке
 REGISTER_INVALID_PASS = (By.XPATH, '//fieldset[3]/div/p') # Некорректный пароль
+ALREADY_REGISTRED = (By.XPATH, '//main/div/p') # Уже существующий пользователь
 
 
 # Локаторы для страницы входа

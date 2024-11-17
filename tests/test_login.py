@@ -63,4 +63,4 @@ def test_registration_invalid_password(setup_browser):
     driver.find_element(*REGISTER_SUBMIT_BUTTON).click()
 
     error_message = driver.find_element(*REGISTER_ERROR_MESSAGE).text
-    assert "Некорректный пароль!" in error_message
+    assert "Некорректный пароль" in error_message
